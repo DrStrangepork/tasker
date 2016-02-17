@@ -1,0 +1,51 @@
+<TaskerData sr="" dvi="1" tv="4.8m">
+	<Profile sr="prof7" ve="2">
+		<cdate>1452911673730</cdate>
+		<clp>true</clp>
+		<edate>1453819710093</edate>
+		<id>7</id>
+		<mid0>4</mid0>
+		<nme>Disable High Location</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.google.android.maps.MapsActivity</cls0>
+			<cls1>com.tinder.activities.ActivityLogin</cls1>
+			<flags>2</flags>
+			<label0>Maps</label0>
+			<label1>Tinder</label1>
+			<pin>true</pin>
+			<pkg0>com.google.android.apps.maps</pkg0>
+			<pkg1>com.tinder</pkg1>
+		</App>
+	</Profile>
+	<Task sr="task4">
+		<cdate>1452908570019</cdate>
+		<edate>1453819947235</edate>
+		<id>4</id>
+		<nme>Enable Power Saving</nme>
+		<Action sr="act0" ve="7">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Location Mode/Battery Saving</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>2</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>
+					<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>java.lang.Integer</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>location_mode</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Location Mode/Battery Saving</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="2"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Location: Power saving</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

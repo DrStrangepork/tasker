@@ -1,0 +1,93 @@
+<TaskerData sr="" tv="1.0.20u3m">
+	<Profile sr="prof12">
+		<nme>Received Text</nme>
+		<id>9999</id>
+		<class cl="EventContext" sr="con0">
+			<String sr="arg3">
+				<val></val>
+			</String>
+			<String sr="arg2">
+				<val></val>
+			</String>
+			<code>7</code>
+			<Int sr="arg1">
+			</Int>
+		</class>
+		<class cl="StateContext" sr="con1">
+			<pin>true</pin>
+			<String sr="a0">
+				<val>WKRP</val>
+			</String>
+			<String sr="a1">
+				<val></val>
+			</String>
+			<String sr="a2">
+				<val></val>
+			</String>
+			<Int sr="a3">
+			</Int>
+			<Int sr="a4">
+			</Int>
+			<code>170</code>
+			<Int sr="a5">
+			</Int>
+		</class>
+		<mid0>8</mid0>
+	</Profile>
+	<Task sr="task8">
+		<nme>Auto Respond (If Driving)</nme>
+		<id>8</id>
+		<Action sr="act1">
+			<Int sr="arg0">
+				<val>1</val>
+			</Int>
+			<code>332</code>
+		</Action>
+		<pri>10</pri>
+		<Action sr="act0">
+			<rhs>on</rhs>
+			<code>135</code>
+			<op>1</op>
+			<Int sr="arg0">
+				<val>3</val>
+			</Int>
+			<lhs>%GPS</lhs>
+		</Action>
+		<Action sr="act4">
+			<Int sr="arg2">
+				<val>1</val>
+			</Int>
+			<String sr="arg1">
+				<val>(Auto) Texting and driving is dangerous. I'm currently driving (at %LOCSPDMPH MPH). Will respond to you when I can safely.</val>
+			</String>
+			<op>4</op>
+			<String sr="arg0">
+				<val>%SMSRF</val>
+			</String>
+			<rhs>5</rhs>
+			<code>41</code>
+			<lhs>%LOCSPDMPH</lhs>
+		</Action>
+		<Action sr="act2">
+			<Int sr="arg2">
+			</Int>
+			<code>902</code>
+			<Int sr="arg1">
+				<val>100</val>
+			</Int>
+			<Int sr="arg0">
+			</Int>
+		</Action>
+		<Action sr="act3">
+			<Int sr="arg2">
+				<val>5</val>
+			</Int>
+			<code>130</code>
+			<Int sr="arg1">
+			</Int>
+			<String sr="arg0">
+				<val>Convert_LOCSPD_MPH</val>
+			</String>
+		</Action>
+	</Task>
+</TaskerData>

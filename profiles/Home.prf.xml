@@ -1,0 +1,29 @@
+<TaskerData sr="" dvi="1" tv="4.8m">
+	<Profile sr="prof27" ve="2">
+		<cdate>1453171815423</cdate>
+		<edate>1453865219813</edate>
+		<id>27</id>
+		<mid0>8</mid0>
+		<nme>Home</nme>
+		<Loc sr="con0">
+			<cname>Home</cname>
+			<lat>42.14104080200195</lat>
+			<long>-71.39862060546875</long>
+			<rad>50.0</rad>
+		</Loc>
+	</Profile>
+	<Task sr="task8">
+		<cdate>1452912768598</cdate>
+		<edate>1453819988859</edate>
+		<id>8</id>
+		<nme>WiFi Enable</nme>
+		<Action sr="act0" ve="7">
+			<code>425</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>331</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
